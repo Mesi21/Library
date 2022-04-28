@@ -161,6 +161,10 @@ input {
   text-align: center;
 }
 
-#cat h1 {
-  margin-top: 140px;
+#cat button {
+  margin-top: 100px;
+  background-color: rgb(45, 45, 141);
+  border-radius: 10px;
+  height: 70px;
+  color: #fff;
 }
