@@ -5,12 +5,12 @@ const Navbar = () => {
   const menuLinks = [
     {
       id: 1,
-      path: '/',
+      path: '/allbooks',
       name: 'BOOKS',
     },
     {
       id: 2,
-      path: '/',
+      path: '/categories',
       name: 'CATEGORIES',
     },
   ];
@@ -21,7 +21,7 @@ const Navbar = () => {
       <ul id="menu" className="navmenu flex-row">
         {menuLinks.map((item) => (
           <li key={item.id}>
-            <Link to={item.path} activeClassName="active-link" exact>
+            <Link to={item.path}>
               {item.name}
             </Link>
           </li>
