@@ -14,6 +14,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(216, 216, 216);
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.br {
+  border-right: 1px solid rgb(175, 175, 175) !important;
+}
+
+button {
+  width: 140px;
+  min-height: 30px;
+  border: 0;
+  background-color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+#main-content {
+  width: 80%;
+  padding: 0 30px;
+  margin: 50px auto; 
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
 }
 
 code {
@@ -24,4 +57,73 @@ code {
     Consolas,
     'Courier New',
     monospace;
+}
+
+.navbar {
+  padding: 20px;
+  color: rgb(87, 129, 196);
+  border-bottom: 2px solid rgb(87, 129, 196);
+  align-items: center;
+}
+
+.navmenu {
+  list-style: none;
+}
+
+.navmenu a {
+  color: rgb(114, 150, 207);
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+.book {
+  padding: 10px 0;
+}
+
+.book span {
+  margin: 10px 0;
+}
+
+.bookLeft {
+  width: 90%;
+  padding: 50px;
+}
+
+.book-row {
+  margin: 40px 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(174, 188, 211);
+  height: 240px;
+}
+
+#title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.blueText {
+  color:rgb(87, 129, 196)
+}
+
+.greyText {
+  color: rgb(175, 175, 175);
+}
+
+.buttons-left {
+  margin: 0 -30px;
+}
+
+.buttons-right {
+  margin-right: 20px;
+}
+
+#completed {
+  width: 100%;
+  background-color: rgb(87, 129, 196);
+  border-radius: 7px;
+  color: #fff;
+  font-weight: 100;
+  padding: 10px 20px;
 }
