@@ -10,7 +10,7 @@ export const checkStatus = (payload) => ({
 const catReducer = (state = stateInit, action) => {
   switch (action.type) {
     case CHECK_STATUS:
-      return [...state, action.payload];
+      return 'Under construction';
 
     default:
       return state;

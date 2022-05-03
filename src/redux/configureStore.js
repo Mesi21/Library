@@ -1,4 +1,5 @@
-import { createStore, combineReducers } from 'redux';
+import { applyMiddleware, createStore, combineReducers } from 'redux';
+import logger from 'redux-logger';
 import booksReducer from './books/books';
 import catReducer from './categories/categories';
 
@@ -9,6 +10,7 @@ const reducer = combineReducers({
 
 const store = createStore(
   reducer(),
+  applyMiddleware(logger),
 );
 
 export default store;
