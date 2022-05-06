@@ -1,5 +1,5 @@
-const ADD_BOOK = 'bookStore/books/ADD_BOOK';
-const REMOVE_BOOK = 'bookStore/books/REMOVE_BOOK';
+const ADD_BOOK = 'library/books/ADD_BOOK';
+const REMOVE_BOOK = 'library/books/REMOVE_BOOK';
 
 const stateInit = [{
   id: 1, title: 'The Da Vinci Code', category: 'Fiction', author: 'Dan Brown',
