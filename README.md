@@ -30,8 +30,8 @@ For the live version of this project visit the following [Netlify](https:// .app
 
  ## Technology
 
-- React-DOM
 - React-Create-App
+- React-DOM
 - Redux
 - npm
 - Javascript ES6
