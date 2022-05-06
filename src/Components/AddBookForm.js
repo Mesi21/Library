@@ -12,7 +12,7 @@ const AddBookForm = () => {
 
   const addToStore = (ev) => {
     ev.preventDefault();
-    const id = booksList.length + 1;
+    const id = `item${booksList.length + 1}`;
     const { title, author } = newBook;
     const bookToAdd = {
       title,
