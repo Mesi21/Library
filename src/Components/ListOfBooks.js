@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Book from './Book';
-import { getBooksList, removeBook } from '../redux/books/books';
+import { getBooksList, deleteBook } from '../redux/books/books';
 
 const ListOfBooks = () => {
   const dispatchAction = useDispatch();
@@ -26,7 +26,7 @@ const ListOfBooks = () => {
                 />
                 <div className="buttons-left">
                   <button type="button" className="br blueText">Comments</button>
-                  <button type="button" className="br blueText" onClick={() => dispatchAction(removeBook(book.id))}>Remove</button>
+                  <button type="button" className="br blueText" onClick={() => dispatchAction(deleteBook(book.id))}>Remove</button>
                   <button type="button" className="blueText">Edit</button>
                 </div>
               </div>
