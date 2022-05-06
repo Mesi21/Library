@@ -5,8 +5,7 @@ import ListOfBooks from './ListOfBooks';
 
 const AllBooks = () => {
   const booksList = useSelector((state) => state.booksReducer);
-  console.log(booksList[1]);
-
+  
   return (
     <div className="main-content">
       <ListOfBooks item={booksList} />
