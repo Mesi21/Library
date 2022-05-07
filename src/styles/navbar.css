@@ -3,8 +3,9 @@
   height: 5.938rem;
   margin: 0 0 2.375rem;
   padding: 1.438rem 6.188rem 1.688rem 6.25rem;
-  background-color: var(--white);
+  background-color: rgb(247, 247, 247);
   justify-content: space-between;
+  border-bottom: solid 1px var(--grey-border);
 }
 
 #logo {
@@ -22,7 +23,7 @@
 }
 
 .navmenu a {
-  color:#121212;
+  color: #121212;
   margin-left: 40px;
   text-decoration: none;
 }

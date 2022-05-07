@@ -43,7 +43,9 @@ const ListOfBooks = () => {
                 </div>
               </div>
               <div className="buttons-right">
-                <button type="button" id="completed">Completed</button>
+                <p>CURRENT CHAPTER</p>
+                <h2>Chapter 9</h2>
+                <button type="button" id="completed">UPDATE PROGRESS</button>
               </div>
             </div>
           ))

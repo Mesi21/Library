@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <nav className="navbar flex-row">
       <span className="flex-row">
-        <h1 id="logo" className="blueText">Bookstore</h1>
+        <h1 id="logo" className="blueText">Bookstore CMS</h1>
         <ul id="menu" className="navmenu flex-row">
           {menuLinks.map((item) => (
             <li key={item.id}>
