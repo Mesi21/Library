@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar flex-row">
-      <span className="flex-row">
+      <div className="flex-row">
         <h1 id="logo" className="blueText">Bookstore CMS</h1>
         <ul id="menu" className="navmenu flex-row">
           {menuLinks.map((item) => (
@@ -30,16 +30,17 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-      </span>
-      <span className="user">
+      </div>
+      <div className="user">
         <FaUserAlt style={{
           color: '#0290ff',
-          height: '15px',
+          backgroundColor: '#fff',
+          height: '1.0rem',
           cursor: 'pointer',
-          transition: 'all ease-in 300ms',
+          position: 'relative',
         }}
         />
-      </span>
+      </div>
     </nav>
   );
 };
